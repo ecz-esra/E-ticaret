@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type=""text placeholder="Enter the products"/>
+        <div class="buttons">
+            <button id="sepet">Sepet</button>
+            <button id="kaydol">Kaydol</button>
+            <button id="giris">Giris Yap</button>
+        </div>
+    </header>
+   <main>
+        <!--KATEGORILER-->
+    <div class="category-wrapper">
+        <h1>CATEGORIES</h1>
+        <div class="category-list">
+         
+        </div>
+    </div>
+         <!--Urunler-->
+         <div class="product-wrapper">
+            <h1>PRODUCTS</h1>
+           <div class="product-list"></div>
+           </div>
+        <!--urunler son-->
+        <!--modal baslangic-->
+        <div class="modal-wrapper">
+           <div class="modal">
+            <h1>SEPET</h1>
+         <img class="close" src="./images/close.png"/>
+          
+         <div id="modal-list">
+
+           </div>
+            <p class="toplam">Toplam:<span id="fiyat">5000</span></p>
+           </div>
+        </div>
+        <!--modall bitis-->
+
+        <!-- giris yap butonu-->
+        <div class="giris-wrapper">
+        <div class="giris">
+            <h1>Giris Bilgileri</h1>
+            <img class="close-login" src="./images/close.png"/>
+            <span>Kullanici Adi :</span>
+            <input type="text"/>
+            <span>Parola :</span>
+            <input type="password"/>
+            <div class="onay">
+            <button id="onaylaBtn">Onayla</button>
+        </div>
+           </div>
+        </div>
+     <!--kayit ol-->
+        <div class="kayit-wrapper">
+        <div class="kayit">
+            <h1>Kayit Bilgileri</h1>
+            <img class="close-kayit" src="./images/close.png"/>
+            <span>Ad-Soyad:</span>
+            <input type="text"/>
+            <span>Telefon:</span>
+            <input type="number"/>
+            <span> Email Adres:</span>
+            <input type="text"/>
+            <span>Adres:</span>
+            <input type="text"/>
+            <div class="kayitBtn">
+            <button id="kaydetBtn">Kaydet</button>
+            </div>
+        </div>
+        </div>
+
+   </main>
+     
+
+    <script src="main.js"></script>
+</body>
+</html>
